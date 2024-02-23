@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+body,
+html{
+  margin:0;
+  padding:0;
+}
+
+body{
+    min-height:100vh;
+    min-width:100vw;
+    background:linear-gradient(to right bottom,#5356ad,#ff73b3);
+    background-size:cover;
+    background-position:center center;
+}
+
+#header{
+  width:50vw;
+  max-width:400px;
+  min-width:300px;
+  height:150px;
+  background-size:cover;
+  background-position: center center;
+  transition: all .08s linear;
+}
+
+#profile{
+  width:50vw;
+  max-width:400px;
+  min-width:300px;
+  height:160px;
+  background:white;
+  position:relative;
+  box-sizing:border-box;
+  padding-top:40px;
+  padding-left:25px;
+  font-family: 'Open Sans', sans-serif;
+  .image{
+    position:absolute;
+    border:3px solid white;
+    top:-55px;
+    left: 20px;
+    height:80px;
+    width:80px;
+    border-radius:10px;
+    img{
+      width:inherit;
+      height:inherit;
+      border-radius:8px;
+    }
+  }
+  .name{
+    font-size:1.3rem;
+    font-weight:500;
+    color:#444;
+  }
+  .nickname{
+    color:#888;
+    font-size:0.9rem;
+    padding-bottom:7px;
+  }
+  .location{
+    color:#555;
+    font-size:0.9rem;
+    padding-left:0px;
+    position:relative;
+    left:-5px;
+    .material-icons{
+      position:relative;
+      top:3px;
+      font-size:1rem;
+    }
+  }
+}
+
+.shadow{
+  box-shadow: 0px 0px 10px 1px rgba(black,0.5);
+}
+
+.overflow{
+  overflow:hidden;
+}
+
+.verify {
+    color: blue;
+}
+
+.icon {
+    color :white;
+}
+
+.navbar {
+    background: transparent;
+}
+
+button {
+    text-decoration: none;
+    background-color: transparent;
+}
